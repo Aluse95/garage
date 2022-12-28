@@ -1,0 +1,105 @@
+/* START HEADER */
+.menu-item:hover > .menu-link {
+  color: #c91b1f;
+}
+
+.top-cart-number::before {
+  background-color: #c91b1f;
+}
+
+#logo img {
+  height: 60px !important;
+}
+
+.sticky-header-shrink #header-wrap #logo img {
+  height: 35px !important;
+}
+/* END HEADER */
+
+#garage-slider {
+  background-image: url("https://www.seekpng.com/png/full/51-517108_bright-background-vector-png-peoplepng-vector-png-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 90vh;
+}
+
+/* START SERVICE */
+#garage-service {
+  position: relative;
+}
+
+#garage-service::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 60%;
+  background-color: #c91b1f;
+  top: 0;
+  left: 0;
+}
+
+.portfolio-desc h3 a:hover {
+  color: #c91b1f;
+}
+/* END SERVICE */
+
+/* START WHY CHOOSE US */
+.fbox-icon i,
+.fbox-icon img {
+  background-color: #c91b1f;
+}
+/* END WHY CHOOSE US */
+
+/* START CONTACT */
+#garage-contact {
+  background-image: url("https://zcube.in/autozox/img/bg/cta_bg02.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 8rem 0;
+}
+/* END CONTACT */
+
+/* START TESTIMONIALS */
+/* #garage-testimonial {
+  background-image: url(https://html.tonatheme.com/2022/gearup/assets/images/background/bg-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 8rem 0;
+} */
+/* END TESTIMONIALS */
+
+/* START BLOGS */
+.entry-title h2 a:hover {
+  color: #c91b1f;
+}
+/* END BLOGS */
+
+/* START FOOTER */
+#footer .button {
+  background-color: #c91b1f;
+}
+
+.footer-logo img {
+  width: 70%;
+}
+
+#copyrights {
+  background-color: #c91b1f !important;
+}
+/* END FOOTER */
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  #garage-service::before {
+    height: 100%;
+  }
+
+  #garage-service .portfolio-desc span,
+  #garage-service .portfolio-desc h3 a {
+    color: #fff;
+  }
+}
